@@ -26,7 +26,7 @@ describe('routes : index', () => {
         res.status.should.equal(200);
         res.type.should.equal('text/html');
         res.text.should.contain('<h1>Welcome to Express!</h1>');
-        res.text.should.contain('<h2>The sum is 3</h2>');
+        res.text.should.contain('<h2>The sum is 4</h2>');
         done();
       });
     });

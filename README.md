@@ -24,4 +24,4 @@
 1. Sign up (if necessary)
 1. Add project repo
 1. Do a quick sanity check - add a new test, push to Github, ensure tests run on Travis
-1.
+1. Install travis command line tool (if necessary) - `gem install travis`
