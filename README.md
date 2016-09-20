@@ -1,5 +1,7 @@
 # Continuous Integration and Deployment with GitHub, Travis and Heroku
 
+[![Build Status](https://travis-ci.org/mjhea0/express-ci-cd.svg?branch=master)](https://travis-ci.org/mjhea0/express-ci-cd)
+
 ## Deploy to Heroku
 
 1. Create app on Heroku and set up Git remote: `heroku create`
@@ -25,3 +27,6 @@
 1. Add project repo
 1. Do a quick sanity check - add a new test, push to Github, ensure tests run on Travis
 1. Install travis command line tool (if necessary) - `gem install travis`
+1. Set up the *travis.yml* file - `travis setup heroku`
+1. Re push
+1. Magic
