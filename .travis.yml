@@ -2,6 +2,16 @@ language:
 - node_js
 node_js:
 - '6'
+- '5'
 env:
   global:
   - NODE_ENV=test
+deploy:
+  provider: heroku
+  api_key:
+    secure: Yos43kiUUdInZMYc4K3dS2ieWUW3jYDBfSFcOEPbYZmIrymaj+MRymyW2YhI//JJJlGStRLx9j1D51ddtU46eTDySgwdOxjRe2P09L4YD+rPbYGry0aMpqYkq2oHGuCvLQRLZOh3giiXFPP2f2BTwDLwm/JtphcvWYfCQI24pffLWia5bTfBXERUI8fsWD16HtfQe9+EUw5KrzBzq06svxAKFbvBftv5bJdF+A7NXQrfQPqxuUbVsH8JD7DXsGG+hoOKz3YCb8RQl/F5lxsx40jqxybi0FAuuuMvW1Tpt8Pyo02M8M+UQZ6GtV1UURYhiEGDify6OGBsU/MkN2lG8n0t/HEL5wveg2HgiW+qLrZbV6eNWMxIpLjusMyrM+WwAYrOVd5N2Yy1yEIZPPgnOm6jQHgtTjvmhT4qUAjYXuWTqYDRP3WZxe1KLtJLFHF8DTleqReCf40jYOFvEdyMBukpvBO5doQ6SexNTupkiWpkVQRTrzHiRMMq+/+R/QNCzq1CTNQ8J7oOFYnLhRpVLyfudauEX0C0VxnyLIpbe+2klfaZWI8Pvw4t3Rag23E8C5xpz/ospjZTc+VdISaqD6RBeSHEKhOZZB0fXnvK/0eM2Az9bfVDOdSTNYnfVLShG2QwwHy8KLJiCkDcTon6uzl7MNFdSs0uQZ4PK0dUIGA=
+  app: dry-spire-19128
+  on:
+    repo: mjhea0/express-ci-cd
+    branch: master
+    node: '6'

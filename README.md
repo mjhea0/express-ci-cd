@@ -23,4 +23,5 @@
 
 1. Sign up (if necessary)
 1. Add project repo
-1. 
+1. Do a quick sanity check - add a new test, push to Github, ensure tests run on Travis
+1.
